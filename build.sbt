@@ -284,6 +284,7 @@ lazy val `quine`: Project = project
       "org.apache.pekko" %% "pekko-connectors-csv" % pekkoConnectorsV,
       "org.apache.pekko" %% "pekko-connectors-kafka" % pekkoKafkaV,
       "org.apache.pekko" %% "pekko-connectors-kinesis" % pekkoConnectorsV exclude ("org.rocksdb", "rocksdbjni"),
+      "org.apache.pekko" %% "pekko-connectors-pravega" % pekkoConnectorsV,
       // 3 Next deps: override outdated pekko-connectors-kinesis dependencies
       "software.amazon.kinesis" % "amazon-kinesis-client" % amazonKinesisClientV,
       "org.apache.commons" % "commons-compress" % apacheCommonsCompressV,
