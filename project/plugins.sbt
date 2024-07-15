@@ -23,3 +23,4 @@ libraryDependencies += "org.eclipse.jgit" % "org.eclipse.jgit" % "6.9.0.20240305
 addSbtPlugin("com.github.sbt" % "sbt-boilerplate" % "0.7.0")
 addSbtPlugin("net.vonbuchholtz" % "sbt-dependency-check" % "5.1.0")
 addSbtPlugin("io.github.siculo" %% "sbt-bom" % "0.3.0")
+ThisBuild / libraryDependencySchemes += "org.scala-lang.modules" %% "scala-xml" % VersionScheme.Always
